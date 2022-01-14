@@ -118,8 +118,20 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What are the main differences between a class-based and a functional component?
 
+Class based functions allow you to access different component lifecycles methods and functional components do not allow you to, hooks also
+can be used in functional components and not in class based components
+
 2. When does a componentWillMount function be called? What about a componentDidUpdate?
+
+componentDidMount? 
+componentDidMount is called when a component has "mounted" in the lifecycle and componentDidUpdate will be called when a component's state has updated
 
 3. Define stateful logic.
 
+stateful logic is any code that manipulates state. 
+
 4. What are the three step of creating a successful test? What is done in each phase? 
+
+1. Arrange - gets the necessary components needed to be used for testing
+2. Act - Create and execute the behavior to be used on those components
+3. Assert - check the actions we made on the components if they were what we expect them to be and act
