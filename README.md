@@ -62,7 +62,7 @@ In this project, you will build the retrieve data from a public api, add in a fa
 
  Your finished project must include all of the following requirements.
 
-#### Plant list
+#### Plant list 
 
   Display a list of the plants from the server. This should be done in the class component `PlantList`. **Unlike other projects, the local server used here can not be accessed through the browser. It is started automatically and without the need for starting a server.js file. Feel free to ignore any messages related to MSW or mock service workers. For this and the rest of your sprint challenges, test the functioning of the server directly through your axios calls.**
 
